@@ -9,6 +9,7 @@
 body{
     font-size: 0px;
     background-color: black;
+    position: relative;
 }
 
 /** Parte 1 **/
@@ -17,13 +18,14 @@ body{
     width: 100%;
     height: 250px;
     font-size: 20px;
-    background-image: radial-gradient(circle at 12.5% 12.5%, #cb7a00 0, #d06d00 10%, #d55f00 20%, #d84e00 30%, #da3908 40%, #db1515 50%, #db001f 60%, #d90029 70%, #d70034 80%, #d4003f 90%, #cf004c 100%);    background-size: cover;
+    background-color: #371B58;
 }
+
 .logo{
     width: 200px;
     height: 200px;
     position: relative;
-    top: -210px;
+    top: -70px;
     left: 100px;
 }
 .nombre{
@@ -36,33 +38,31 @@ body{
     text-shadow: 5px 5px black;
 }
 
+#modalbutton{
+    position: relative;
+    top: -160px;
+    left: 1220px;
+}
+
 /** Parte 2 **/
 
-.Parte1 nav{
-    width: 50%;
-    height: 100px;
-    margin: 20px;
-    position: relative;
-    top: 70px;
-    left: 1600px;    
-}
+
 .Parte2{
     width: 100%;
     height: 600px;
-    background-image: radial-gradient(circle at 12.5% 12.5%, #cb7a00 0, #d06d00 10%, #d55f00 20%, #d84e00 30%, #da3908 40%, #db1515 50%, #db001f 60%, #d90029 70%, #d70034 80%, #d4003f 90%, #cf004c 100%);    background-size: cover;
+    background-color: #4C3575;
 }
 .foda{
-    width: 48.7%;
-    height: 260px;
-    margin: 10px 10px;
+    width: 48.5%;
+    height: 270px;
+    margin: 20px 10px 10px 10px;
     background-color: rgba(255, 255, 255, .30);
     display: inline-block;
-    border-radius: 15px;
-    box-shadow: 0px 0px 4px black;
-    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+    font-size: 24px;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    position: relative;
 }
 .foda:hover{
     transition: all .4s linear;
@@ -72,91 +72,11 @@ body{
 }
 .cuatro{
     position: relative;
-    top: -75px;
+    top: -73px;
     right: 0px;
 }
-
-/**Parte 3 **/
-
-.Parte3{
-    width: 100%;
-    height: 600px;
-    background-color: black;
-}
-.art{
-    width: 50%;
-    height: 100%;
-    background-color: black;
-    display: inline-block;
-    font-size: 20px;
-}
-#SliderInt{
-    position: relative;
-    top: 0px;
-    right: 0px;
-}
-ul, li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-ul.slider{
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-ul.slider h1{
-    position: absolute;
-    background-color: rgba(255, 255, 255, .30);
-    padding: 10px;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    font-size: 40px;
-    font-family: 'Bebas Neue', cursive;
-}
-ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background-image: url(/Imagenes/Ciudad2.jpg);
-    background-size: cover;
-    color: black;
-}
-ul.slider li img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-ul.slider li:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
-}
-ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-}
-.menu{
-    text-align: center;
-    margin: 5px;
-    background-color: black;
-}
-.menu li{
-    display: inline-block;
-    text-align: center;
-}
-.menu li a{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    background-color: rebeccapurple;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    border-radius: 100%;
+#Parte3{
+    background-color: #5B4B8A;
 }
 
 /** Parte 4 **/
@@ -164,19 +84,19 @@ ul.slider li:target {
 .Parte4{
     width: 100%;
     height: 400px;
-    background-image: radial-gradient(circle at 12.5% 12.5%, #cb7a00 0, #d06d00 10%, #d55f00 20%, #d84e00 30%, #da3908 40%, #db1515 50%, #db001f 60%, #d90029 70%, #d70034 80%, #d4003f 90%, #cf004c 100%);    background-size: cover;
+    background-color: #7858A6;
 }
 #exp{
     width: 47%;
     height: 300px;
-    background-image: linear-gradient(40deg, #5b4e4c 0, #554443 16.67%, #4a3334 33.33%, #3b1d22 50%, #2b0612 66.67%, #240003 83.33%, #1f0000 100%);
+    background-color: rgba(255, 255, 255, .30);
     margin: 20px;
     display: inline-block;
     position: relative;
     top: 50px;
     right: 0;
-    border-radius: 70px;
-    box-shadow: 3px 3px 7px white;
+    border-radius: 150px;
+    box-shadow: 10px 10px 15px black;
 }
 #exp h1{
     text-align: center;
@@ -193,6 +113,7 @@ ul.slider li:target {
     right: 0;
     font-size: 30px;
     color: white;
+    list-style: none;
 }
 
 /** Footer **/
@@ -210,4 +131,9 @@ ul.slider li:target {
     top: 40px;
     right: 0;
     font-family: 'Bebas Neue', cursive;
+}
+#perfil{
+    position: relative;
+    top: -60px;
+    left: 750px;
 }
